@@ -1,0 +1,8 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+@layer components {
+  .my-container {
+    @apply container mx-auto;
+  }
+}
