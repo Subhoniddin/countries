@@ -8,7 +8,7 @@ export default function CountryCard({ info }) {
   } = info;
   return (
       <li>
-            <div className="card bg-base-100 w-72 shadow-sm">
+            <div className="card bg-base-100 md:w-60 xl:w-72 shadow-sm">
               <figure className="w-full !min-h-40">
                 <img
                   style={{
